@@ -30,11 +30,35 @@ header .subtitle {
 
 section {
   padding: 60px 0;
+  border-bottom: 1px solid #eee;
 }
 
 h2 {
   color: #333;
   margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #1e90ff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
 }
 
 footer {
